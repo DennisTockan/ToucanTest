@@ -19,3 +19,51 @@ Before you can set up and run the project, the following prerequisites must be m
 
 ## Project Setup
 To set up the project on your local machine, follow the next steps:
+
+1. Clone the repository to your local machine:
+```js
+
+```
+
+
+2. Install project dependencies using Composer:
+```js
+
+```
+
+3. Create a .env file by copying the .env.example file and updating it with your configuration:
+```js
+
+```
+Update the .env file with your MySQL database configuration, including the host, username, password, and database name.
+
+4. Generate an application key:
+```js
+
+```
+
+5. Run the database migrations to create the necessary tables:
+```js
+
+```
+
+6. Start the Laravel development server:
+```js
+
+```
+
+## Usage 
+
+Access the application in your web browser at `http://localhost:8000`.
+You can add new members with their name, email address, and select the school from the provided list.
+The application allows you to view members associated with a selected school.
+
+## Database Access
+
+To access the MySQL database, you can use Docker. Run the following command to start a MySQL container:
+
+
+
+- Replace `<root-password>` and `<database-name>` with your preferred values.
+
+Connect to the MySQL database using a database client (e.g., phpMyAdmin) by specifying the host, username, password, and port as configured in your .env file.
