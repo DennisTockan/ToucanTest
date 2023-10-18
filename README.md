@@ -79,6 +79,10 @@ docker run -d --name <my-mysql-container> -e MYSQL_ROOT_PASSWORD=<root-password>
 ```
 
 - We must replace `<my-mysql-container>`, `<root-password>` and `<database-name>` with the correct values.
+- Replace `<my-mysql-container>` with `toucantest-mysql-1`
+- Replace `<root-password>` with `root`
+- Replace `<database-name>` with `toucantestdb`
+  
 <br>
 
 ## Triumphs:
