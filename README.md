@@ -73,6 +73,9 @@ The application allows you to view members associated with a selected school.
 ## Database Access
 
 To access the MySQL database, you can use Docker. Run the following command to start a MySQL container:
+```js
+docker compose up
+```
 
 ```js
 docker run -d --name <my-mysql-container> -e MYSQL_ROOT_PASSWORD=<root-password> -e MYSQL_DATABASE=<database-name> -p 3306:3306 mysql
