@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SchoolController;
+use App\Http\Controllers\MemberController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -27,10 +29,7 @@ Route::get('/', function () {
 Route::get('/home', [SchoolController::class, 'index'])->name('home');
 Route::get('/create', [SchoolController::class, 'show'])->name('create');
 
-
-Route::post('/create', [MemberController::class, 'store']);
-
-
+Route::post('/create', [MemberController::class, 'store'])->name('store.member');
 
 
 
