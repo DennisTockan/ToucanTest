@@ -84,6 +84,11 @@ docker compose up
 ```js
 docker run -d --name toucantest-mysql-1 -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=toucantestdb -p 3306:3306 mysql
 ```
+<br>
+On your `localhost/8080`, here are the following login details:
+- Server = mysql
+- Username = root
+- Password = root
 
 
 <br>
