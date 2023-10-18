@@ -112,5 +112,12 @@ Enhanced time management skills for more efficient project execution.
 Reflecting on these experiences, I aim to further advance my skills and deliver high-quality work in future projects.
 
 
+Here are some images I have of the app
 
+![Alt text](<Screenshot 2023-10-18 at 15.12.20.png>)
 
+![Alt text](<Screenshot 2023-10-18 at 15.12.38.png>)
+
+![Alt text](<Screenshot 2023-10-18 at 15.13.24.png>)
+
+![Alt text](<Screenshot 2023-10-18 at 15.14.36.png>)
