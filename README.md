@@ -49,6 +49,9 @@ composer install
 cp .env.example .env
 ```
 We must now update the the `.env` file with your MySQL database configuration, including the host, username, password, and database name.
+- Host=
+- username=
+- 
 
 <br>
 
@@ -78,14 +81,10 @@ docker compose up
 ```
 
 ```js
-docker run -d --name <my-mysql-container> -e MYSQL_ROOT_PASSWORD=<root-password> -e MYSQL_DATABASE=<database-name> -p 3306:3306 mysql
+docker run -d --name toucantest-mysql-1 -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=toucantestdb -p 3306:3306 mysql
 ```
 
-- We must replace `<my-mysql-container>`, `<root-password>` and `<database-name>` with the correct values.
-- Replace `<my-mysql-container>` with `toucantest-mysql-1`
-- Replace `<root-password>` with `root`
-- Replace `<database-name>` with `toucantestdb`
-  
+
 <br>
 
 ## Triumphs:
