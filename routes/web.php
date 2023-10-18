@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\SchoolController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,21 +18,19 @@ Route::get('/', function () {
     return redirect()->route('home');
 });
 
-Route::get('/oldadd', function(){
-    return view('oldadd');
+// -------------------------------------------------------------------------
+
+Route::get('/', function () {
+    return redirect()->route('home');
 });
 
-// -------------------------------------------------------------------------
+Route::get('/home', [SchoolController::class, 'index'])->name('home');
+Route::get('/create', [SchoolController::class, 'show'])->name('create');
 
-// -------------------------------------------------------------------------
+Route::post('/home', function () {
+    dd('We have submitted the form');
+})->name('create');
 
-Route::get('/home', function(){
-    return view('home', );
-})->name('home');
-
-Route::get('/add', function(){
-    return view('add', );
-})->name('add');
 
 
 

@@ -10,3 +10,10 @@ form{
     margin:20px auto;
     padding: 20px;
 }
+
+div input[type="radio"]:checked + label {
+    font-weight: bold; /
+}
+
+
+
