@@ -44,7 +44,7 @@ composer install
 <br>
 
 
-5. We now must create a `.env` file by copying the `.env.example` file and updating it with your configuration:
+5. Create a `.env` file by copying the `.env.example` file and updating it with your configuration:
 ```js
 cp .env.example .env
 ```
@@ -52,7 +52,14 @@ We must now update the the `.env` file with your MySQL database configuration, i
 
 <br>
 
-6. Start the Laravel development server:
+6. Now generate an application key:
+```js
+php artisan key:generate
+```
+<br>
+
+
+7. Start the Laravel development server:
 ```js
 php artisan serve
 ```
