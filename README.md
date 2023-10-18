@@ -24,33 +24,39 @@ To set up the project on your local machine, follow the next steps:
 ```js
 
 ```
+<br>
 
 
 2. Install project dependencies using Composer:
 ```js
 
 ```
+<br>
 
 3. Create a .env file by copying the .env.example file and updating it with your configuration:
 ```js
 
 ```
+<br>
 Update the .env file with your MySQL database configuration, including the host, username, password, and database name.
 
 4. Generate an application key:
 ```js
 
 ```
+<br>
 
 5. Run the database migrations to create the necessary tables:
 ```js
 
 ```
+<br>
 
 6. Start the Laravel development server:
 ```js
 
 ```
+<br>
 
 ## Usage 
 
