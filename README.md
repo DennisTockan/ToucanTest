@@ -79,3 +79,30 @@ docker run -d --name <my-mysql-container> -e MYSQL_ROOT_PASSWORD=<root-password>
 ```
 
 - We must replace `<my-mysql-container>`, `<root-password>` and `<database-name>` with the correct values.
+<br>
+
+## Triumphs:
+
+- Quickly learned PHP and Laravel with limited prior experience.
+- Successfully added member management functionality to the project.
+
+<br>
+
+## Obstacles:
+
+- Managed tight time constraints due to a 3-day deadline.
+- Encountered initial challenges while setting up MySQL through Docker. To overcome this i conducted extensive research, reading into Docker and MySQL documentation & exploring online forums and resources.
+
+## Lessons Learned:
+
+Developed rapid learning and adaptability skills.
+Improved problem-solving abilities by breaking down complex issues into smaller tasks.
+Recognized the value of clear and comprehensive documentation.
+Enhanced time management skills for more efficient project execution.
+<br>
+Reflecting on these experiences, I aim to further advance my skills and deliver high-quality work in future projects.
+
+
+
+
+
