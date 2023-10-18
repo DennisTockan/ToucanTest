@@ -49,9 +49,10 @@ composer install
 cp .env.example .env
 ```
 We must now update the the `.env` file with your MySQL database configuration, including the host, username, password, and database name.
-- Host=
-- username=
-- 
+- Host = 127.0.0.1
+- Username = root
+- Password = root
+- Database = toucantestdb
 
 <br>
 
