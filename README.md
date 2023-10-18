@@ -39,6 +39,7 @@ To set up the project on your local machine, follow the next steps:
 ```
 <br>
 Update the .env file with your MySQL database configuration, including the host, username, password, and database name.
+<br>
 
 4. Generate an application key:
 ```js
@@ -72,4 +73,4 @@ To access the MySQL database, you can use Docker. Run the following command to s
 
 - Replace `<root-password>` and `<database-name>` with your preferred values.
 
-Connect to the MySQL database using a database client (e.g., phpMyAdmin) by specifying the host, username, password, and port as configured in your .env file.
+Connect to the MySQL database using a database client by specifying the host, username, password, and port as configured in your .env file.
