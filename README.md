@@ -39,6 +39,7 @@ To set up the project on your local machine, follow the next steps:
 ```
 <br>
 Update the .env file with your MySQL database configuration, including the host, username, password, and database name.
+
 <br>
 
 4. Generate an application key:
@@ -57,7 +58,6 @@ Update the .env file with your MySQL database configuration, including the host,
 ```js
 
 ```
-<br>
 
 ## Usage 
 
