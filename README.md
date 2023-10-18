@@ -22,18 +22,22 @@ To set up the project on your local machine, follow the next steps:
 
 1. Clone the repository to your local machine:
 ```js
-
+git clone https://github.com/DennisTockan/ToucanTest.git
 ```
 <br>
 
+2. Navigate to the project directory:
+```js
+cd ToucanTest
+```
 
-2. Install project dependencies using Composer:
+3. Install project dependencies using Composer:
 ```js
 
 ```
 <br>
 
-3. Create a .env file by copying the .env.example file and updating it with your configuration:
+4. Create a .env file by copying the .env.example file and updating it with your configuration:
 ```js
 
 ```
@@ -42,19 +46,19 @@ Update the .env file with your MySQL database configuration, including the host,
 
 <br>
 
-4. Generate an application key:
+5. Generate an application key:
 ```js
 
 ```
 <br>
 
-5. Run the database migrations to create the necessary tables:
+6. Run the database migrations to create the necessary tables:
 ```js
 
 ```
 <br>
 
-6. Start the Laravel development server:
+7. Start the Laravel development server:
 ```js
 
 ```
