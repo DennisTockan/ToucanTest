@@ -2,7 +2,7 @@
 
 @section('content')
 
-<h4 class="center">ToucanTech</h4>
+<h4 class="center grey-text">Add a Member</h4>
 <form class="white" action="{{ route('create') }}" method="POST">
     @csrf 
     <div>

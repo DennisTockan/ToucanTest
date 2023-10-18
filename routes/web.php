@@ -30,8 +30,7 @@ Route::get('/home', [SchoolController::class, 'index'])->name('home');
 Route::get('/create', [SchoolController::class, 'show'])->name('create');
 
 Route::post('/create', [MemberController::class, 'store'])->name('store.member');
-
-
+Route::get('/home/{school_id}', [MemberController::class, 'showMembersBySchool'])->name('home.school');
 
 
 

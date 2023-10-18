@@ -12,13 +12,13 @@
 <div class="container">
     
 @foreach($schools as $school)
-    <div>
+    <a href="{{ route('home.school', ['school_id' => $school->id]) }}" class="card-link">
         <div class="card">
             <div class="card-content">
                 <span class="card-title">{{ $school->name }}</span>
             </div>
         </div>
-</div>
+    </a>
 @endforeach
 
 </div>

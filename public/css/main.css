@@ -15,5 +15,14 @@ div input[type="radio"]:checked + label {
     font-weight: bold; /
 }
 
+.card-link {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+.card-link:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5), 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
 
 

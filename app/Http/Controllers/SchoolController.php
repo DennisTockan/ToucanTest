@@ -16,4 +16,5 @@ class SchoolController extends Controller
         $schools = School::orderBy('id')->get();
         return view('create', ['schools' => $schools]);
     }
+    
 }
