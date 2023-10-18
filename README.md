@@ -32,13 +32,27 @@ cd ToucanTest
 ```
 <br>
 
-3. Install project dependencies using Composer:
+3. Open the repository on VSCode: 
+```js
+code .
+```
+
+4. Install project dependencies using Composer:
 ```js
 composer install
 ```
 <br>
 
-4. Start the Laravel development server:
+
+5. We now must create a `.env` file by copying the `.env.example` file and updating it with your configuration:
+```js
+cp .env.example .env
+```
+We must now update the the `.env` file with your MySQL database configuration, including the host, username, password, and database name.
+
+<br>
+
+6. Start the Laravel development server:
 ```js
 php artisan serve
 ```
@@ -53,8 +67,8 @@ The application allows you to view members associated with a selected school.
 
 To access the MySQL database, you can use Docker. Run the following command to start a MySQL container:
 
+```js
+docker run -d --name my-mysql-container -e MYSQL_ROOT_PASSWORD=<root-password> -e MYSQL_DATABASE=<database-name> -p 3306:3306 mysql
+```
 
-
-- Replace `<root-password>` and `<database-name>` with your preferred values.
-
-Connect to the MySQL database using a database client by specifying the host, username, password, and port as configured in your .env file.
+- We must replace `<my-mysql-container>`, `<root-password>` and `<database-name>` with the correct values.
