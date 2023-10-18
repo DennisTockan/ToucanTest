@@ -86,7 +86,7 @@ docker run -d --name <my-mysql-container> -e MYSQL_ROOT_PASSWORD=<root-password>
 - Quickly learned PHP and Laravel with limited prior experience.
 - Successfully added member management functionality to the project.
 
-<br>
+
 
 ## Obstacles:
 
@@ -99,7 +99,9 @@ Developed rapid learning and adaptability skills.
 Improved problem-solving abilities by breaking down complex issues into smaller tasks.
 Recognized the value of clear and comprehensive documentation.
 Enhanced time management skills for more efficient project execution.
+
 <br>
+
 Reflecting on these experiences, I aim to further advance my skills and deliver high-quality work in future projects.
 
 
