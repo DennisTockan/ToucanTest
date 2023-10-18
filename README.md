@@ -7,3 +7,15 @@
 The ToucanTech School & Member Management project is a web application that allows users to add and view members associated with various schools. It's built using PHP and the Laravel framework and uses a MySQL database to store member information.
 
 ## Prerequisites
+
+Before you can set up and run the project, the following prerequisites must be met:
+
+- PHP: You should have PHP installed on your local machine. You can download PHP from the official website: [PHP Downloads](https://www.php.net/downloads.php).
+
+- Composer: Composer is a dependency management tool for PHP. You can install it by following the instructions on the official website: [Composer Installation](https://getcomposer.org/download/).
+
+- Docker: We use Docker to provide a MySQL database instance for this project. You can download Docker from the official website: [Docker Installation](https://www.docker.com/get-started/).
+
+
+## Project Setup
+To set up the project on your local machine, follow the next steps:
