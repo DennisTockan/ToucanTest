@@ -30,37 +30,17 @@ git clone https://github.com/DennisTockan/ToucanTest.git
 ```js
 cd ToucanTest
 ```
+<br>
 
 3. Install project dependencies using Composer:
 ```js
-
+composer install
 ```
 <br>
 
-4. Create a .env file by copying the .env.example file and updating it with your configuration:
+4. Start the Laravel development server:
 ```js
-
-```
-<br>
-Update the .env file with your MySQL database configuration, including the host, username, password, and database name.
-
-<br>
-
-5. Generate an application key:
-```js
-
-```
-<br>
-
-6. Run the database migrations to create the necessary tables:
-```js
-
-```
-<br>
-
-7. Start the Laravel development server:
-```js
-
+php artisan serve
 ```
 
 ## Usage 
