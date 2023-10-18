@@ -7,8 +7,18 @@ use App\Models\Member;
 
 class MemberController extends Controller
 {
-    public function store(){
+    public function store(Request $request){
+        
+        $member = new Member();
 
-        return redirect('/');
+        $member->name = $request->input('name');
+        $member->email = $request->input('email');
+        $member->school_id = $request->input('school');
+
+        $member->save();
+
+
+
+        return redirect('/home')->with('message', "You've successfully added a member!");
     }
 }

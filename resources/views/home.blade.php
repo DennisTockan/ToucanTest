@@ -1,6 +1,13 @@
 @extends('layouts.layout')
 
 @section('content')
+
+@if(session('message'))
+<div class="alert alert-success">
+    {{ session('message') }}
+</div>
+@endif
+
 <h4 class="center grey-text">Schools</h4>
 <div class="container">
     

@@ -1,6 +1,7 @@
 @extends('layouts.layout')
 
 @section('content')
+
 <h4 class="center">ToucanTech</h4>
 <form class="white" action="{{ route('create') }}" method="POST">
     @csrf 

@@ -17,6 +17,7 @@ return new class extends Migration
             $table->string('email');
             $table->unsignedBigInteger('school_id'); // Foreign key reference to the schools table
             $table->foreign('school_id')->references('id')->on('schools');
+            $table->timestamps(); 
         });
 
     }
