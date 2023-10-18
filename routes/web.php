@@ -27,11 +27,8 @@ Route::get('/', function () {
 Route::get('/home', [SchoolController::class, 'index'])->name('home');
 Route::get('/create', [SchoolController::class, 'show'])->name('create');
 
-Route::post('/home', function () {
-    dd('We have submitted the form');
-})->name('create');
 
-
+Route::post('/create', [MemberController::class, 'store']);
 
 
 
