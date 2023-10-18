@@ -11,7 +11,7 @@
         <ul class="collection">
             @foreach($members as $member)
                 <li class="collection-item">
-                    Name: {{ $member->name }}<br>
+                    Name:gir  {{ $member->name }}<br>
                     Email: {{ $member->email }}<br>
                     School: {{ $school->name }}<br>
                 </li>
